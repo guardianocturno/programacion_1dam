@@ -10,5 +10,6 @@ public class Ejercicio01 {
         int numero = sc.nextInt();
 
         System.out.println("Número: " + numero);
+        
     }
 }
