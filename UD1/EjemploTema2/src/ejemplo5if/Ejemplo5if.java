@@ -12,18 +12,14 @@ public class Ejemplo5if {
 		if (solu_raiz > 0) {
 			Double raiz = Math.sqrt(solu_raiz);
 
-			Double solucion_posi = (-b + raiz) / 2 * a;
+			Double solucion_posi = (-b + raiz) / (2 * a);
 
-			Double solucion_nega = (-b - raiz) / 2 * a;
+			Double solucion_nega = (-b - raiz) / (2 * a);
 			
 			System.out.println(solucion_posi);
 			
 			System.out.println(solucion_nega);
 
-		} else if (solu_raiz == 0) {
-			Double soulicon_0 = (double) (-b / 2 * a);
-			
-			System.out.println(soulicon_0);
 		} else {
 			System.out.println("No tiene solucion");
 		}
