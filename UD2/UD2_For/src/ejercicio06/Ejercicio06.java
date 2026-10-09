@@ -15,7 +15,8 @@ public class Ejercicio06 {
 			
 			if (nota<5) {
 				algunSuspenso=true;
-			};
+				break;
+			}
 		}
 		
 		System.out.println("¿¿hay algun suspenso??----> " + algunSuspenso);
